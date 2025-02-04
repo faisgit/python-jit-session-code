@@ -54,4 +54,11 @@ else:
     print("Grade F")
 
 
- 
+# HomeWork Questions
+
+#  1. Check if the season is Autumn, Winter, Spring or Summer. If the user input is: September, October or November, the season is Autumn. December, January or February, the season is Winter. March, April or May, the season is Spring June, July or August, the season is Summer
+
+
+# 2. Compare the values of my_age and your_age using if … else. Who is older (me or you)? Use input(“Enter your age: ”) to get the age as input. You can use a nested condition to print 'year' for 1 year difference in age, 'years' for bigger differences, and a custom text if my_age = your_age
+
+# 3.Writ a script that prompts the user to enter hours and rate per hour. Calculate pay of the person?
