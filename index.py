@@ -62,3 +62,15 @@ else:
 # 2. Compare the values of my_age and your_age using if … else. Who is older (me or you)? Use input(“Enter your age: ”) to get the age as input. You can use a nested condition to print 'year' for 1 year difference in age, 'years' for bigger differences, and a custom text if my_age = your_age
 
 # 3.Writ a script that prompts the user to enter hours and rate per hour. Calculate pay of the person?
+
+# Take the number from the user and find out whether the given number is prime or not 
+
+num = int(input("Enter a number: "))
+if(num < 0):
+    print(f"{num} is not prime")
+elif (num == 2 or num == 3 or num == 5 or num == 7 ):
+    print(f"{num} is a prime number")
+elif (num % 2 == 0 or num %3 ==0 or num % 5 == 0 or num % 7 == 0):
+    print(f'{num} is not a prime number')
+else:
+    print(f"{num} is a prime number")
