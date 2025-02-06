@@ -29,6 +29,9 @@ class SavingsAccount(Account):
 Sujal  = SavingsAccount('12300190',5000, 10)
 Sujal.deposit(3000)
 
+# Homework Assignment
+# Do the ploymorphism in above classes
+
         
 
 # account = Account('12345678', 2000)
